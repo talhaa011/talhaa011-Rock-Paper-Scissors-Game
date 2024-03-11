@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./src/output.css" rel="stylesheet">
+        <link href="./src/input.css" rel="stylesheet">
+        <title>Rock, Paper, Sessior | Cratd by Talha</title>
+    </head>
+    <body class="bg-gradient-to-l from-blue-400 to-black">
+        <h1 class="text-4xl font-bold text-white bg-black h-24 text-center pt-6 border-b-4 border-white">
+            Rock-Paper-Sessior
+        </h1>
+        <div class="choices flex justify-center mt-20 gap-7">
+            <div id="rock" class="choice cursor-pointer bg-gradient-to-l from-black to-purple-400 rounded-full pt-8 w-48 h-48 border-4 hover:border-black">
+                <img src="/rock.png" alt="#">
+            </div>
+            <div id="paper" class="choice cursor-pointer bg-gradient-to-l from-black to-yellow-400 rounded-full pt-8 w-48 h-48 border-4 hover:border-black">
+                <img  src="/paper.png" alt="#">
+            </div>
+            <div id="scissors" class="choice cursor-pointer bg-gradient-to-l from-black to-pink-400 rounded-full pt-8 w-48 h-48 border-4 hover:border-black">
+                <img src="/scissors.png" alt="#">
+            </div>
+        </div>
+        <div class="score flex justify-center mt-8 gap-14 text-white">
+            <div class="user">
+                <p class="user_score text-6xl">0</p>
+                <p class=" font-medium text-xl mt-2">You</p>
+            </div>
+            <div class="user">
+                <p class="comp_score text-6xl  ">0</p>
+                <p class="-ml-2 font-medium text-xl mt-2">Comp</p>
+            </div>
+        </div>
+        <div class="msg_container text-center">
+            <div id="msg" class="bg-black mt-8 text-white inline-block p-2 pb-4 w-64  text-xl font-bold rounded-xl shadow-2xl border-4 border-white cursor-pointer -ml-3 ">Play your Turn</div>
+        </div>
+        <script src="/script.js"></script>
+    </body>
+</html>
